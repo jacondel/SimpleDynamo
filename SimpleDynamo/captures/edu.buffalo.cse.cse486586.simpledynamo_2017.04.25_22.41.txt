@@ -1,0 +1,33 @@
+Applications Memory Usage (kB):
+Uptime: 3690405 Realtime: 3690405
+
+** MEMINFO in pid 3937 [edu.buffalo.cse.cse486586.simpledynamo] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap      981      896        0        0     2224     1942      281
+  Dalvik Heap     1489     1292        0        0     3472     2918      554
+ Dalvik Other     1003      740        0        0                           
+        Stack       92       92        0        0                           
+       Ashmem      474       48        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1334      536       12        0                           
+    .apk mmap      112        0        0        0                           
+    .ttf mmap        4        0        0        0                           
+    .dex mmap      662       12       52        0                           
+   Other mmap        8        4        0        0                           
+      Unknown       64       64        0        0                           
+        TOTAL     6227     3684       68        0     5696     4860      835
+ 
+ Objects
+               Views:       21         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:        8        Proxy Binders:       16
+    Death Recipients:        0
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
